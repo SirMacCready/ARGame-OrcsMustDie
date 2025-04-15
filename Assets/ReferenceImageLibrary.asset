@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5425174249545508066
+  m_GuidHigh: 13563841259726110639
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4844289610377175056
+      m_GuidHigh: 1716233804327539608
+    m_SerializedTextureGuid:
+      m_GuidLow: 2168779983783895505
+      m_GuidHigh: 6851998886168055867
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: th
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5711499036661144452
+      m_GuidHigh: 6227100217235293353
+    m_SerializedTextureGuid:
+      m_GuidLow: 6929229980709239863
+      m_GuidHigh: 16883416155538797609
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Rickrolling_QR_code
+    m_Texture: {fileID: 0}
