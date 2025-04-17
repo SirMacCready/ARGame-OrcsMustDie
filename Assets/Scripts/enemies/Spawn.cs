@@ -11,7 +11,7 @@ namespace enemies
         {
             delay = 3;
             amountSpawned = 0;
-            spawnPoint = GetComponent<>();
+            spawnPoint = GameObject.FindWithTag("SpawnPoint");
             
         }
 
