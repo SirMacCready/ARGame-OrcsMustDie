@@ -19,8 +19,9 @@ namespace enemies
 
         void Update()
         {
-            if (delay >= 1 && maxAmountSpawned > amountSpawned){
-                GameObject temp = Instantiate(Orc, new Vector3(0,0 ,Random.Range(-10, 10)), Quaternion.identity);
+            if (delay >= 5 && maxAmountSpawned > amountSpawned){
+                GameObject temp = Instantiate(Orc, new Vector3(spawnPoint.transform.position.x,spawnPoint.transform.position.y ,Random.Range(spawnPoint.transform.lossyScale.z/-2, spawnPoint.transform.lossyScale.z/2)), Quaternion.identity);
+                temp.transform.parent = spawnPoint.transform;
                 temp.name = "Orc" + amountSpawned;
                 delay = 0;
                 amountSpawned++;
