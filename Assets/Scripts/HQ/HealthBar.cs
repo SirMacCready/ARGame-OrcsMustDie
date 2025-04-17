@@ -24,6 +24,9 @@ public class HealthBar : MonoBehaviour
         slider.minValue = 0;
     }
 
+    public int GetHealth(){
+            return health; // Return the current health value
+        }
     public void SetHealth(int health){
         this.health = health;
         slider.value = health; // Update the slider value to reflect the current health
