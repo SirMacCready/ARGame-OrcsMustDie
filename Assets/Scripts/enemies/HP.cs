@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class Hp : MonoBehaviour
+public class HP : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth;
