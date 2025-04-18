@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class HP : MonoBehaviour
 {
-    public int maxHealth = 3;
     public int currentHealth;
+    public int maxHealth;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

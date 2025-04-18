@@ -3,17 +3,16 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float movementSpeed = 1.0f; 
+    public float movementSpeed; 
 
-    public GameObject hq;
-    public GameObject self; 
+    public GameObject target;
     void Start()
     {
-        hq = GameObject.FindWithTag("HQ");
-        self = GameObject.FindWithTag("Enemy");
+        target = GameObject.FindWithTag("HQ");
     }
 
     void Update()
         {
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.transform.position.x,transform.position.y, transform.position.z), movementSpeed*Time.deltaTime);
         }
     }
