@@ -50,10 +50,7 @@ public class place_map : MonoBehaviour
                 Pose pose = hit.pose;
                 pose.position.y += 0.2f;
                 
-                Quaternion rotationOffset = Quaternion.Euler(-90f, 0f, 0f);
-                Quaternion finalRotation = pose.rotation * rotationOffset;
-                
-                GameObject map = Instantiate(prefab, pose.position, finalRotation);
+                GameObject map = Instantiate(prefab, pose.position, pose.rotation);
                 map.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
                 mapPlaced = true;
                 break;
