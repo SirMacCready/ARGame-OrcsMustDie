@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
@@ -7,21 +5,25 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
-[RequireComponent(typeof(ARRaycastManager),
-    typeof(ARPlaneManager))]
-public class place_map : MonoBehaviour
+[RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
+public class PlaceMap : MonoBehaviour
 {
     [SerializeField]
     private GameObject prefab;
     private ARRaycastManager raycastManager;
     private ARPlaneManager planeManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
-    private Boolean mapPlaced = false;
-    
+    public bool mapPlaced = false;
+
     private void Awake()
     {
         raycastManager = GetComponent<ARRaycastManager>();
         planeManager = GetComponent<ARPlaneManager>();
+
+        if (raycastManager == null || planeManager == null)
+        {
+            Debug.LogError("ARRaycastManager or ARPlaneManager is missing.");
+        }
     }
 
     private void OnEnable()
@@ -42,19 +44,26 @@ public class place_map : MonoBehaviour
     {
         if (mapPlaced) return;
         if (finger.index != 0) return;
-        
+
         if (raycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon))
         {
             foreach (ARRaycastHit hit in hits)
-            {   
+            {
                 Pose pose = hit.pose;
-                pose.position.y += 0.2f;
-                
-                GameObject map = Instantiate(prefab, pose.position, pose.rotation);
+
+                // Adjust the rotation to swap X and Z axes
+                Quaternion adjustedRotation = pose.rotation * Quaternion.Euler(0, 90, 0);
+
+                GameObject map = Instantiate(prefab, pose.position, adjustedRotation);
                 map.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
                 mapPlaced = true;
                 break;
             }
         }
+        else
+        {
+            Debug.Log("No valid hit found.");
+        }
     }
+
 }

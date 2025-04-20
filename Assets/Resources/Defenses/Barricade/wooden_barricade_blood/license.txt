@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Barricade Blood
+* source:	https://sketchfab.com/3d-models/wooden-barricade-blood-c67afba415534358b80afc60ed13c447
+* author:	KobieCaestecker (https://sketchfab.com/KobieCaestecker)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Barricade Blood" (https://sketchfab.com/3d-models/wooden-barricade-blood-c67afba415534358b80afc60ed13c447) by KobieCaestecker (https://sketchfab.com/KobieCaestecker) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,18 +1,15 @@
 using HQ;
-using UnityEditor.AssetImporters;
 using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
     public int attackValue = 1;
-    public HP target ;
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.CompareTag("HQ"))
+        if (other.CompareTag("HQ"))
         {
-            target.TakeDamage(attackValue);
+            other.gameObject.GetComponent<HQHP>().TakeDamage(attackValue);
             Destroy(gameObject);
-            print("solong");
         }
     } 
 

@@ -1,15 +1,38 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
+
 public class MenuBoard : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void PlayGame()
+    private InputAction touchAction;
+    private InputAction mouseAction;
+
+    private void OnEnable()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // Définir les actions d'entrée pour le toucher et la souris
+        touchAction = new InputAction("Touch", binding: "<Touchscreen>/primaryTouch/press", interactions: "press");
+
+        // S'abonner aux événements d'entrée
+        touchAction.performed += _ => LoadNextScene();
+
+        // Activer les actions
+        touchAction.Enable();
     }
 
-    public void QuitGame()
+    private void OnDisable()
     {
-        Application.Quit();
+        // Désactiver les actions lorsque le script est désactivé
+        touchAction.Disable();
     }
+
+    private void LoadNextScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+    }   
 }

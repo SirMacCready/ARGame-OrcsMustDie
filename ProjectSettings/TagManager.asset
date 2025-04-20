@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - HQ
   - SpawnPoint
+  - Defense
   layers:
   - Default
   - TransparentFX
