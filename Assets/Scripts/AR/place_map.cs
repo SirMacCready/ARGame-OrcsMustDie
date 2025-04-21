@@ -1,69 +1,68 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
+using UnityEngine.Lumin;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
+using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
-[RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
 public class PlaceMap : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject prefab;
-    private ARRaycastManager raycastManager;
-    private ARPlaneManager planeManager;
+    public ARRaycastManager raycastManager;
+    public GameObject map;
+    public Camera arCamera;
+    public ARPlaneManager planeManager;
+
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
-    public bool mapPlaced = false;
+    private bool mapPlaced = false; // Track if the map has been placed
+    public GameObject startHUD;
+    public GameObject tabletopHUD;
 
-    private void Awake()
+    void OnEnable()
     {
-        raycastManager = GetComponent<ARRaycastManager>();
-        planeManager = GetComponent<ARPlaneManager>();
+        EnhancedTouchSupport.Enable();
+    }
 
-        if (raycastManager == null || planeManager == null)
+    void OnDisable()
+    {
+        EnhancedTouchSupport.Disable();
+    }
+
+    void Update()
+    {
+        if (mapPlaced)
         {
-            Debug.LogError("ARRaycastManager or ARPlaneManager is missing.");
+            return; // Exit if the map has already been placed
         }
-    }
 
-    private void OnEnable()
-    {
-        EnhancedTouch.TouchSimulation.Enable();
-        EnhancedTouch.EnhancedTouchSupport.Enable();
-        EnhancedTouch.Touch.onFingerDown += FingerDown;
-    }
-
-    private void OnDisable()
-    {
-        EnhancedTouch.TouchSimulation.Disable();
-        EnhancedTouch.EnhancedTouchSupport.Disable();
-        EnhancedTouch.Touch.onFingerDown -= FingerDown;
-    }
-
-    private void FingerDown(EnhancedTouch.Finger finger)
-    {
-        if (mapPlaced) return;
-        if (finger.index != 0) return;
-
-        if (raycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon))
+        if (Touch.activeTouches.Count > 0)
         {
-            foreach (ARRaycastHit hit in hits)
+            Touch touch = Touch.activeTouches[0];
+            if (touch.phase == UnityEngine.InputSystem.TouchPhase.Began)
             {
-                Pose pose = hit.pose;
+                // Cast a ray from the camera's position in the direction it is facing
+                Ray ray = new Ray(arCamera.transform.position, arCamera.transform.forward);
 
-                // Adjust the rotation to swap X and Z axes
-                Quaternion adjustedRotation = pose.rotation * Quaternion.Euler(0, 90, 0);
+                if (raycastManager.Raycast(ray, hits, TrackableType.Planes))
+                {
+                    Pose hitPose = hits[0].pose;
+                    hitPose.rotation.y += 180f;
+                    Vector3 adjustedPosition = hitPose.position;
+                    GameObject placedMap = Instantiate(map, adjustedPosition, hitPose.rotation);
 
-                GameObject map = Instantiate(prefab, pose.position, adjustedRotation);
-                map.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-                mapPlaced = true;
-                break;
+                    // Scale the map to one-tenth of its true scale
+                    placedMap.transform.localScale = map.transform.localScale * 0.05f;
+
+                    // Set the map as placed
+                    mapPlaced = true;
+                    planeManager.enabled = false;
+                    startHUD.SetActive(false);
+                    tabletopHUD.SetActive(true);
+                    
+                    
+                }
             }
         }
-        else
-        {
-            Debug.Log("No valid hit found.");
-        }
     }
-
 }

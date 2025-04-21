@@ -1,3 +1,5 @@
+using System;
+using player.Balance;
 using UnityEngine;
 
 public class PathFinding : MonoBehaviour
@@ -5,12 +7,10 @@ public class PathFinding : MonoBehaviour
     private float _speed = 10f;
     private Transform _target;
     private int Damage = 1;
-
     public void SetTarget(Transform newTarget)
     {
         _target = newTarget;
     }
-
     void Update()
     {
         if (_target != null)
@@ -22,9 +22,11 @@ public class PathFinding : MonoBehaviour
             if (Vector3.Distance(transform.position, _target.position) < 0.1f)
             {
                 EnemyHP enemyHP = _target.GetComponent<EnemyHP>();
+                Balance balance = GetComponent<Balance>();
                 if (enemyHP != null)
                 {
-                    enemyHP.takeDamage(Damage);
+                    enemyHP.TakeDamage(Damage);
+                    balance.Gain(enemyHP.GoldValue);
                 }
                 Destroy(gameObject);
             }

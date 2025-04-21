@@ -10,12 +10,14 @@ EditorBuildSettings:
     guid: b89441ac49b67b3518e1b032f67f6938
   - enabled: 1
     path: Assets/Scenes/Game Level.unity
-    guid: 3fea7ee8613e12d49bc77f4404b7e89b
+    guid: 97a7a6fd9d24b9e0d900ca5916512ce5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259,
       type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c9a84625df30ca92b97cbeec713662b2,
+      type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c199e683398494f32b4cde18e73ab731,
       type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 0b53a025a635a4393ba0b49822242280,

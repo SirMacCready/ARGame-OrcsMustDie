@@ -8,14 +8,16 @@ TagManager:
   - HQ
   - SpawnPoint
   - Defense
+  - FPS Camera
+  - Tabletop Camera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - terrain and structure
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -47,3 +49,5 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - Terrain
+  - Enemy

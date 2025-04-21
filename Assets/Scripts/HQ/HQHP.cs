@@ -20,6 +20,13 @@ namespace HQ
                 Debug.Log("dead");
             }
                 
-        }
+        }public void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Enemy"))
+            {
+                TakeDamage(other.gameObject.GetComponent<Attack>().attackValue);
+                Destroy(other.gameObject);
+            }
+        } 
     }
 }

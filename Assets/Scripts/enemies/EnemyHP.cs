@@ -5,6 +5,7 @@ public class EnemyHP : MonoBehaviour
 {
     private int _currentHealth;
     public int maxHealth;
+    public int GoldValue;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -12,7 +13,7 @@ public class EnemyHP : MonoBehaviour
         _currentHealth = maxHealth;
     }
 
-    public void takeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         _currentHealth -= amount;
         if (_currentHealth <= 0)

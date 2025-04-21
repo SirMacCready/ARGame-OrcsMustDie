@@ -13,7 +13,7 @@ namespace enemies
         
         private void Start()
         {
-            delay = 3;
+            delay = 0;
             amountSpawned = 0;
             
         }
@@ -21,10 +21,9 @@ namespace enemies
         void Update()
         {
             GameObject selectedEnemy = enemies[Random.Range(0,enemies.Length)]; 
-            if (delay >= 5 && maxAmountSpawned > amountSpawned)
+            if (delay >= 20 && maxAmountSpawned > amountSpawned)
             {
-                float zSpawn = transform.position.z;
-                GameObject temp = Instantiate(selectedEnemy, new Vector3(transform.position.x , transform.position.y, zSpawn ), Quaternion.identity);
+                GameObject temp = Instantiate(selectedEnemy, new Vector3(transform.position.x , transform.position.y+1f, transform.position.z), Quaternion.identity);
                 temp.transform.parent = transform;
                 temp.name = selectedEnemy.ToString() + amountSpawned;
                 delay = 0;

@@ -48,7 +48,7 @@ public class Targetting : MonoBehaviour
         if (target != null)
         {
             Vector3 targetDirection = target.position - transform.position;
-            Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+            Quaternion targetRotation = Quaternion.LookRotation(new Vector3(targetDirection.x, 0, targetDirection.z));
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
     }

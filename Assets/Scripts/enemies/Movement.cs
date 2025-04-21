@@ -20,7 +20,8 @@ public class Movement : MonoBehaviour
 
     void Update()
         {
-            transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x,transform.position.y, target.transform.position.z), movementSpeed*Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.transform.position.x,target.transform.position.y, target.transform.position.z), movementSpeed*Time.deltaTime);
+            transform.LookAt(target.transform);
         }
     private void OnTriggerEnter(Collider other)
     {
