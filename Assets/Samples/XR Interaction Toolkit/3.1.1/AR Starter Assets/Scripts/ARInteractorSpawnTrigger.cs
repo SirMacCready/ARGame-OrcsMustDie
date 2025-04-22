@@ -1,7 +1,7 @@
 #if AR_FOUNDATION_PRESENT
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
@@ -82,18 +82,22 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
             // If the user triggered the spawn input (select or button press)
             if (m_SpawnObjectInput.ReadWasPerformedThisFrame())
             {
+                Debug.unityLogger.Log("Spawning object", this);
                 // Perform the raycast
                 if (m_ARInteractor.TryGetCurrentARRaycastHit(out var arRaycastHit))
                 {
+                    Debug.unityLogger.Log("fired object to spawn", this);
                     // Check if the hit is on the Terrain layer
                     if ((m_TerrainLayerMask.value & (1 << arRaycastHit.trackable.gameObject.layer)) == 0)
                         return;  // If not on Terrain layer, don't spawn
-
+                    
+                    Debug.unityLogger.Log("Reached ! :", arRaycastHit.trackable.gameObject.layer);
                     // Get the position and normal from the raycast hit pose
                     Vector3 hitPosition = arRaycastHit.pose.position; 
                     Vector3 hitNormal = arRaycastHit.pose.rotation * Vector3.up;  // The normal is the up direction in the rotation of the pose
 
                     // Spawn the object at the hit position with the correct surface normal
+                    Debug.DrawRay(hitPosition, hitNormal, Color.red,50f);
                     m_ObjectSpawner.TrySpawnObject(hitPosition, hitNormal);
                 }
             }
