@@ -20,6 +20,7 @@ namespace HQ
             if (currentHealth <= 0)
             {
                 Debug.Log("dead");
+                Time.timeScale = 0f;
             }
                 
         }
