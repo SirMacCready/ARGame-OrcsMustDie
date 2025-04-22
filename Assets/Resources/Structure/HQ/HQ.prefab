@@ -103,6 +103,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  damageSoundClip: {fileID: 8300000, guid: 956fce3fc127c61479a7af17245f02d7, type: 3}
+  deathSoundClip: {fileID: 8300000, guid: fdb25936799f6044cac506fd79657190, type: 3}
 --- !u!136 &5205549809314190403
 CapsuleCollider:
   m_ObjectHideFlags: 0

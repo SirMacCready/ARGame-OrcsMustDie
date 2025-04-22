@@ -788,6 +788,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 20
   GoldValue: 50
+  damageSoundClip: {fileID: 8300000, guid: 054a2a3b1623c2e43947a226f92196e6, type: 3}
+  deathSoundClip: {fileID: 8300000, guid: 395186b7be1a95245a525444385d0a5e, type: 3}
 --- !u!54 &1654172645755364957
 Rigidbody:
   m_ObjectHideFlags: 0
