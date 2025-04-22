@@ -28,7 +28,7 @@ namespace UI
             }
         }
 
-        private void switchPov()
+        public void switchPov()
         {
             print("switching pov");
             if (tabletopOrigin.activeInHierarchy)

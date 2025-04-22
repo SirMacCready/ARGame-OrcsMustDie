@@ -70,8 +70,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ARInteractor: {fileID: 0}
   m_ObjectSpawner: {fileID: 5934095490722817255}
-  m_RequireHorizontalUpSurface: 0
-  m_SpawnTriggerType: 0
+  m_TerrainLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
   m_SpawnObjectInput:
     m_InputSourceMode: 2
     m_InputActionPerformed:
@@ -102,4 +103,3 @@ MonoBehaviour:
     m_ManualQueueWasCompletedThisFrame: 0
     m_ManualQueueValue: 0
     m_ManualQueueTargetFrame: 0
-  m_BlockSpawnWhenInteractorHasSelection: 1
