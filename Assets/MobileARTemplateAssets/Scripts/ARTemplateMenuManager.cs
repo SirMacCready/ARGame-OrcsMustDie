@@ -226,7 +226,6 @@ public class ARTemplateMenuManager : MonoBehaviour
         m_CreateButton.onClick.AddListener(ShowMenu);
         m_CancelButton.onClick.AddListener(HideMenu);
         m_DeleteButton.onClick.AddListener(DeleteFocusedObject);
-        m_PlaneManager.trackablesChanged.AddListener(OnPlaneChanged);
     }
 
     /// <summary>
@@ -238,7 +237,6 @@ public class ARTemplateMenuManager : MonoBehaviour
         m_CreateButton.onClick.RemoveListener(ShowMenu);
         m_CancelButton.onClick.RemoveListener(HideMenu);
         m_DeleteButton.onClick.RemoveListener(DeleteFocusedObject);
-        m_PlaneManager.trackablesChanged.RemoveListener(OnPlaneChanged);
     }
 
     /// <summary>
@@ -253,7 +251,6 @@ public class ARTemplateMenuManager : MonoBehaviour
 
         InitializeDebugMenuOffsets();
         HideMenu();
-        m_PlaneManager.planePrefab = m_DebugPlane;
     }
 
     /// <summary>

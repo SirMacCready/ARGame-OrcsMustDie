@@ -1,66 +1,48 @@
+using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace UI
 {
-    public class povswitching : MonoBehaviour
+    public class PovSwitcher : MonoBehaviour
     {
-        private Camera _cam1 ;
-        private Camera _cam2 ;
-        private GameObject[] tabletop ;
-        private GameObject[] FPS;
-        public Button povSwitch;
-  
-        void Start() {
-            _cam1.enabled = true;
-            _cam2.enabled = false;
-            if (povSwitch != null)
+        [Header("Tabletop Origin")] 
+        [SerializeField] private GameObject tabletopOrigin;
+        [Header("FPS Origin")] 
+        [SerializeField] private GameObject FPSOrigin;
+
+        [Header("UI Elements")]
+        [SerializeField] private Button povSwitchButton;
+
+        private void Start()
+        {
+            if (povSwitchButton != null)
             {
-                povSwitch.onClick.AddListener(PovSwitch);
-                print("pov listener added");
+                povSwitchButton.onClick.AddListener(switchPov);
+                print("PovSwitchButton is On");
             }
             else
             {
-                print("pov is not assigned");
+                print("PovSwitchButton is null");
             }
         }
-  
-        void PovSwitch() {
-            _cam1 = GameObject.FindGameObjectWithTag("Tabletop Camera").GetComponent<Camera>();
-            _cam2 = GameObject.FindGameObjectWithTag("FPS Camera").GetComponent<Camera>();
-            tabletop = GameObject.FindGameObjectsWithTag("Tabletop");
-            FPS =  GameObject.FindGameObjectsWithTag("FPS");
-            
-            if (_cam1.enabled) {
-                _cam1.enabled = false;
-                _cam2.enabled = true;
-                foreach (GameObject tabletop in tabletop)
-                {
-                    tabletop.SetActive(false);
-                }
 
-                foreach (GameObject tabletop in FPS)
-                {
-                    tabletop.SetActive(true);
-                }
-
+        private void switchPov()
+        {
+            print("switching pov");
+            if (tabletopOrigin.activeInHierarchy)
+            {
+                tabletopOrigin.SetActive(false);
+                FPSOrigin.SetActive(true);
+                print("FPS ON");
             }
             else
             {
-                _cam1.enabled = true;
-                _cam2.enabled = false;
-
-                foreach (GameObject tabletop in tabletop)
-                {
-                    tabletop.SetActive(true);
-                }
-
-                foreach (GameObject tabletop in FPS)
-                {
-                    tabletop.SetActive(false);
-                }
+                tabletopOrigin.SetActive(true);
+                FPSOrigin.SetActive(false);
+                print("Tabletop ON");
             }
         }
-
     }
 }

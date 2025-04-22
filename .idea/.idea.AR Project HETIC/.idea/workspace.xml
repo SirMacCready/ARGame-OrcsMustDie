@@ -5,58 +5,998 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ee1d4d8-af9f-4117-9f96-d33e71b30c5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joysticks.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joysticks.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/firing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/firing.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/povswitching.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/povswitching.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/Balance.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/Balance/Balance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/Balance/Balance.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/Weapon/WeaponFire.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/Weapon/WeaponFire.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Defense placing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Defense placing/DefensePlacing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Defense placing/DefensePlacing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Defense placing/toggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Defense placing/toggle.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR Project HETIC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR Project HETIC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Prefabs/ARFeatheredPlane.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Prefabs/ARFeatheredPlane.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ogre.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Orge Fire Pit.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Goblin/Goblin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Goblin/Goblin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Goblin/Goblin.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Goblin/Goblin.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Orc/Orc.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Orc/Orc.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Orc/Orc.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Orc/Orc.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Troll/Troll.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Troll/Troll.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Troll/Troll.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Troll/Troll.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joysticks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joysticks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseBastions_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseBastions_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseCastleUp_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseCastleUp_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseCastle_02_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseCastle_02_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseCastle_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BaseCastle_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BridgeControl_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BridgeControl_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CannonBall_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CannonBall_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CastleGround_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CastleGround_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Envoirement_02_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Envoirement_02_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Envoriement_01_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Envoriement_01_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FrontBastions_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FrontBastions_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Front_Rampart_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Front_Rampart_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/MetalDoor_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/MetalDoor_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/RampartStone_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/RampartStone_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Rampart_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Rampart_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Rope_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Rope_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SideBastions_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SideBastions_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stairs_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stairs_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/WoodDoor_baseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/WoodDoor_baseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch end 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch end 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch end 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch end 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch end 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch end 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch start 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch start 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch start 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch start 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump/Jump 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump/Jump 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump/Jump 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Jump/Jump 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing/Landing 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing/Landing 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Steps.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Audio/Steps.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo/Demo Mini FPC Minimal.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo/Demo Mini FPC Minimal.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo/Demo Mini FPC.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo/Demo Mini FPC.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo/readme.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Demo/readme.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/FPS.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/FPS.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/FPS.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/FPS.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/First Person Controller.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/First Person Controller.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Crouch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Crouch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Jump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Jump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Zoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/firing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/firing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Tabletop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/Tabletop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/XR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/XR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/ChatGPT Image Apr 21, 2025, 11_34_32 AM(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/ChatGPT Image Apr 21, 2025, 11_34_32 AM(1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Height.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Height.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim_BAKE.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_BAKE_Mesh_Anim_BAKE.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_MAIN_SG_Mixed_AO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_MAIN_SG_Mixed_AO.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_MAIN_SG_Opacity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/SechsEnder_MAIN_SG_Opacity.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/crosshair-symbol-v11-001-3d-model-69270f1f4f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/source/SechsEnder/crosshair-symbol-v11-001-3d-model-69270f1f4f.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_BAKE_Mesh_Anim001_SechsEnder_MAIN_SG_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_MAIN_SG_Mixed_AO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_MAIN_SG_Mixed_AO.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_MAIN_SG_Opacity.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini First Person Controller/crossbow/textures/SechsEnder_MAIN_SG_Opacity.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AR Default Plane.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AR Default Plane.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ReferenceImageLibrary.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ReferenceImageLibrary.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Defenses/Balista/Balista.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Defenses/Balista/Balista.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Defenses/Balista/Projectiles/Classic Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Defenses/Balista/Projectiles/Classic Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Defenses/Barricade/Barricade.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Defenses/Barricade/Barricade.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/GRAVEDIGGER/GRAVEDIGGER_PERSONAL_USE SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/GRAVEDIGGER/GRAVEDIGGER_PERSONAL_USE SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Map.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Map.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/Terrain.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/Terrain.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Structure/Enemy HQ/Enemy HQ.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Structure/Enemy HQ/Enemy HQ.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Structure/Enemy HQ/orc-cabin/source/model/textures/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Structure/Enemy HQ/orc-cabin/source/model/textures/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Structure/HQ/HQ.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Structure/HQ/HQ.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rickrolling_QR_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rickrolling_QR_code.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/source/Horse Armor.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/source/Horse Armor.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_AO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_AO.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_albedo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_albedo.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/196488-armor-for-man-and-horse/textures/Armor_Mat_roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Agrippa Idle Pose.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Agrippa Idle Pose.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Agrippa_Hair_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Agrippa_Hair_d.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Hair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Horse texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Horse texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Texture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/source/Texture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/textures/Agrippa_Hair_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/textures/Agrippa_Hair_d.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/textures/Horse texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/agrippa/textures/Horse texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx/source/Campfire_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx/source/Campfire_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx/textures/Campfire_T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/campfire-fbx/textures/Campfire_T.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Bark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Bark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_AO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_AO.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_Opacity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_Opacity.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_v2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_v2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_v3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_v3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_v4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Branch_Leaf_0013_v4.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Fallen_Curved.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Fallen_Curved.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Fallen_Curved.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Fallen_Curved.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Fallen_Curved.stmat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/Fallen_Curved.stmat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/bark_brown_02_diff_8k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/bark_brown_02_diff_8k.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/bark_brown_02_diff_8k_AO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/bark_brown_02_diff_8k_AO.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/bark_brown_02_diff_8k_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/bark_brown_02_diff_8k_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/leaf.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/source/Fallen_Curved_Tree/leaf.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_Opacity.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_Opacity.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_v2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_v2.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_v3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_v3.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_v4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/Branch_Leaf_0013_v4.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/bark_brown_02_diff_8k.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/bark_brown_02_diff_8k.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/bark_brown_02_diff_8k_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fallen-curved-tree/textures/bark_brown_02_diff_8k_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source/WoodPlanksOld0242_7_S.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source/WoodPlanksOld0242_7_S.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source/fence.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source/fence.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source/fence.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/source/fence.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/textures/WoodPlanksOld0242_7_S.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/fence-wood/textures/WoodPlanksOld0242_7_S.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/source/tent_prop_01_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/source/tent_prop_01_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/DP168759.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/DP168759.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/DP168759.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/DP168759.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/box_table_box_table_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_02_bread_02_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/bread_bread_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_02_Crate_02_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_03_Crate_03_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/crate_Crate_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/internal_ground_ao_texture.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/internal_ground_ao_texture.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/leather_hanger_leather_hanger_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/norm.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/norm.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/norm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/norm.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_01_pot_01_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/pot_02_pot_02_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/rough.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/rough.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/stool_stool_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/table_table_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_pole_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_back_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_front_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_sides_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/tent_tent_top_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_01_vegetable_box_01_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_02_vegetable_box_02_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetable_box_03_vegetable_box_03_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/vegetables_vegetables_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_01_wooden_bucket_01_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Emissive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Emissive.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-01/textures/wooden_bucket_02_wooden_bucket_02_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/source/tent_prop_02_Sfab.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/source/tent_prop_02_Sfab.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/axe_axe_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_03_Crate_03_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_03_Crate_03_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_03_Crate_03_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_03_Crate_03_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_03_Crate_03_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_03_Crate_03_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_Crate_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_Crate_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_Crate_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_Crate_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_Crate_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/crate_Crate_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/decorative_objects_decorative_objects_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/flame_1038.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/flame_1038.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_apple_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/fruit_basket_fruit_basket_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/internal_ground_ao_texture.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/internal_ground_ao_texture.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_01_pot_01_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_01_pot_01_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_01_pot_01_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_01_pot_01_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_01_pot_01_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_01_pot_01_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_02_pot_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_02_pot_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_02_pot_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_02_pot_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_02_pot_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/pot_02_pot_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/sand_bag_sand_bag_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/stool_stool_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/stool_stool_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/stool_stool_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/stool_stool_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/stool_stool_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/stool_stool_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_cloth_table_cloth_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_table_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_table_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_table_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_table_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_table_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/table_table_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_front_back_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_sides_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_Tent_02_top_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/tent_02_1_pole_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wood_wood_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wood_wood_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wood_wood_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wood_wood_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wood_wood_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wood_wood_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_barrel_wooden_barrel_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_01_wooden_bucket_01_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_01_wooden_bucket_01_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_01_wooden_bucket_01_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_01_wooden_bucket_01_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_01_wooden_bucket_01_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_01_wooden_bucket_01_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_BaseColor.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_BaseColor.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Emissive.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Emissive.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Normal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Normal.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-market-tent-prop-02/textures/wooden_bucket_02_wooden_bucket_02_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/source/model.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/source/model.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/textures/Armor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/textures/Armor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/textures/gltf_embedded_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier(1)/textures/gltf_embedded_0.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/source/AnyConv.com__crusader_paladin_1226012356_refine.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/source/AnyConv.com__crusader_paladin_1226012356_refine.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/source/crusader_paladin_1226012356_refine.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/source/crusader_paladin_1226012356_refine.glb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/textures/Paladin.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/textures/Paladin.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/textures/gltf_embedded_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/medieval-soldier/textures/gltf_embedded_0.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/source/oaks.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/source/oaks.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/bark_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/bark_color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/bark_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/bark_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/bark_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/bark_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/oak_foliage_plane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/mighty-oak-trees/textures/oak_foliage_plane.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/source/oaktrees.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/source/oaktrees.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/Bark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/Bark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/Branch.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/Branch.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/bark1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/bark1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/bark1Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/bark1Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/bark1Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/bark1Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchRoughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchRoughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchcolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchcolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchcolormapbleed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/oak-trees/textures/oakbranchcolormapbleed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/source/444.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Ambiance/source/444.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/source/More Trees Free.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/source/More Trees Free.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/PineBark_Roughness@channels=G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/PineBark_Roughness@channels=G.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/PineBark_diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/PineBark_diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/PineBark_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/PineBark_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/Tree_Leaf_Diffuse-Tree_Leaf_opacity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/Tree_Leaf_Diffuse-Tree_Leaf_opacity.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/Tree_Leaf_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/Terrain/more-realistic-trees-free/textures/Tree_Leaf_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Maps/map.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Maps/map.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/527a2871-bc8b-45b4-a109-b214ad024d83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/527a2871-bc8b-45b4-a109-b214ad024d83.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/JoyStick.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/JoyStick/Joystick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/JoyStick/Joystick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Main Menu UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Main Menu UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Level.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Level.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/init.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/place_map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/place_map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/place_map.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/place_map.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cube.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cube.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cylinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cylinder.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Defenses/Balista/Projectile/PathFinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Balista/Projectile/PathFinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Defenses/Balista/Targetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Defenses/Balista/Targetting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HQ/HQHP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HQ/HQHP.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemies/Attack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemies/Attack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemies/EnemyHP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemies/EnemyHP.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemies/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemies/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemies/Spawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemies/Spawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/minotaur1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/povswitching.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/povswitching.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/Balance.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/Balance/Balance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/Balance/Balance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/Weapon/WeaponFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/player/Weapon/WeaponFire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scene1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scene1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scene2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scene2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,18 +1011,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Crouch.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HQ/HQHP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HQ/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HQ/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/tomat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1e5c6ec548db/Runtime/TMP/TMP_FontAsset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arcore@ee95a3194c2e/Editor/ARCoreImageLibraryBuildProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@238c430a5976/Runtime/Simulation/Subsystems/CameraTextureProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Runtime/XROrigin.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -94,21 +1035,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../Unity/Hub/Editor/6000.0.46f1/Editor/Unity" />
@@ -235,6 +1176,7 @@
       <workItem from="1745217779579" duration="2852000" />
       <workItem from="1745223235930" duration="1066000" />
       <workItem from="1745224833008" duration="22495000" />
+      <workItem from="1745281276160" duration="13876000" />
     </task>
     <servers />
   </component>

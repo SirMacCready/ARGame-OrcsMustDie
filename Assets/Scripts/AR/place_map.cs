@@ -17,7 +17,7 @@ public class PlaceMap : MonoBehaviour
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
     private bool mapPlaced = false; // Track if the map has been placed
     public GameObject startHUD;
-    public GameObject tabletopHUD;
+    private GameObject[] startHUDs;
 
     void OnEnable()
     {
@@ -27,6 +27,12 @@ public class PlaceMap : MonoBehaviour
     void OnDisable()
     {
         EnhancedTouchSupport.Disable();
+    }
+
+    void Start()
+    {
+        startHUDs = GameObject.FindGameObjectsWithTag("startHUDs");
+        print(startHUDs);
     }
 
     void Update()
@@ -58,9 +64,11 @@ public class PlaceMap : MonoBehaviour
                     mapPlaced = true;
                     planeManager.enabled = false;
                     startHUD.SetActive(false);
-                    tabletopHUD.SetActive(true);
-                    
-                    
+                    foreach (GameObject startHUD in startHUDs)
+                    {
+                        startHUD.SetActive(false);
+                    }
+
                 }
             }
         }

@@ -9,12 +9,8 @@ public class WeaponFire : MonoBehaviour
     public Button fireButton;
     public float weaponRange = 100f; // The range of the weapon
     public int damage = 100; // The damage the weapon will deal
-    public ARRaycastManager arRaycastManager;
-    public LayerMask enemyLayer; // The layer that enemies are on
-    public LayerMask playerLayer;
     void Start()
     {
-        // Add a listener to the button and call the FireWeapon method when clicked
         if (fireButton != null)
         {
             fireButton.onClick.AddListener(FireWeapon);
@@ -34,19 +30,35 @@ public class WeaponFire : MonoBehaviour
 
     void FireWeapon()
     {
-        Debug.DrawRay(transform.position, transform.forward * 5, Color.red, 50f);
-        Ray ray  = Camera.main.ScreenPointToRay(Vector3.forward);
+        Debug.Log("FIRE button pressed");
 
-        int layer_mask = LayerMask.GetMask("Enemy");
-        if (Physics.Raycast(transform.position,transform.forward,out var hit))
+        if (Physics.Raycast(transform.position, transform.forward, out var hit, weaponRange))
         {
-            if (hit.transform.gameObject.CompareTag("Enemy"))
+            Debug.Log("Raycast hit: " + hit.transform.name);
+
+            if (hit.transform.CompareTag("Enemy"))
             {
+                Debug.Log("Enemy tagged object hit");
+
                 EnemyHP enemyHP = hit.transform.GetComponent<EnemyHP>();
+                if (enemyHP == null)
+                {
+                    Debug.LogError("No EnemyHP script found!");
+                    return;
+                }
+
+                Debug.Log("EnemyHP found, applying damage...");
                 enemyHP.TakeDamage(damage);
             }
-            
-            
+            else
+            {
+                Debug.Log("Hit object is NOT tagged as Enemy");
+            }
+        }
+        else
+        {
+            Debug.Log("Raycast missed");
         }
     }
+
 }
